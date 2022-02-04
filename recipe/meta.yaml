@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: robotframework-axelibrary
@@ -6,11 +6,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/r/robotframework-axelibrary/robotframework-axelibrary-{{ version }}.tar.gz
-    sha256: 14912b8d96b468a20481bc73db217fa4cb3be0d3866fcdac627cd6387468d6f4
-  # TODO: remove after https://github.com/adiralashiva8/robotframework-axelibrary/pull/1
-  - url: https://raw.githubusercontent.com/adiralashiva8/robotframework-axelibrary/v{{ version }}/LICENSE
-    sha256: b41a5f3e72604de8b7630927d7ba534f4fd0cfdec351332209d9a45ab42afd8d
-
+    sha256: 12f3f5895ab7a9770df6390ceefa6a8de8179b8a35bcfe6a224a32c0520765ad
 build:
   number: 0
   noarch: python
